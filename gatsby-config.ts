@@ -18,7 +18,7 @@ const config: GatsbyConfig = {
     author: `@lekoarts_de`,
   },
   trailingSlash: `always`,
-  pathPrefix: "/reponame",
+  pathPrefix: "/ucart_site",
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-cara`,
