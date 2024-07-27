@@ -8,14 +8,14 @@ const config: GatsbyConfig = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-cara/gatsby-config.mjs
-    siteTitle: `Cara`,
-    siteTitleAlt: `Cara - Gatsby Starter Portfolio`,
-    siteHeadline: `Cara - Gatsby Theme from @lekoarts`,
-    siteUrl: `https://cara.lekoarts.de`,
-    siteDescription: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+    siteTitle: `microCart`,
+    siteTitleAlt: `microCart - pipette control system`,
+    siteHeadline: `microCart - pipette control system`,
+    siteUrl: `https://zach-c-d.github.io/ucart_site/`,
+    siteDescription: `A precision pipette control system.`,
     siteImage: `/banner.jpg`,
     siteLanguage: `en`,
-    author: `@lekoarts_de`,
+    author: `zach-c-d`,
   },
   trailingSlash: `always`,
   pathPrefix: "/ucart_site",
@@ -28,9 +28,9 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Cara - @lekoarts/gatsby-theme-cara`,
-        short_name: `Cara`,
-        description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+        name: `microCart - pipette control system`,
+        short_name: `microCart`,
+        description: `A precision pipette control system`,
         start_url: `/`,
         background_color: `#141821`,
         // This will impact how browsers show your PWA/website

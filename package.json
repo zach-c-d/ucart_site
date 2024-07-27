@@ -1,9 +1,9 @@
 {
   "private": true,
-  "name": "cara",
-  "description": "Playful and Colorful One-Page portfolio featuring Parallax effects and animations",
+  "name": "microCart",
+  "description": "pipette control system",
   "version": "0.2.15",
-  "author": "LekoArts",
+  "author": "zach-c-d",
   "license": "0BSD",
   "starter-name": "gatsby-starter-portfolio-cara",
   "scripts": {
