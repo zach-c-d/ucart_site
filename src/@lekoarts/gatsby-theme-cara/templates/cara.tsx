@@ -10,9 +10,9 @@ import Seo from "../components/seo"
 
 const Cara = () => (
   <Layout>
-    <Parallax pages={2}>
+    <Parallax pages={1}>
       <Hero offset={0} factor={1} />
-      <Contact offset={1} factor={1} />
+      {/* <Contact offset={0} factor={1} /> */}
     </Parallax>
   </Layout>
 )
