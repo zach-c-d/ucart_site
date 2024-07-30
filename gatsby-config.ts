@@ -20,6 +20,9 @@ const config: GatsbyConfig = {
   trailingSlash: `always`,
   pathPrefix: "/ucart_site",
   plugins: [
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`, // Needed for dynamic images
     {
       resolve: `@lekoarts/gatsby-theme-cara`,
       // See the theme's README for all available options

@@ -4,9 +4,13 @@ import Divider from "../elements/divider"
 import Inner from "../elements/inner"
 import Content from "../elements/content"
 import Svg from "./svg"
-
+import MicroCartIcon from "../../../../static/microCart.png"
+import { withPrefix } from "gatsby"
+import {StaticImage} from "gatsby-plugin-image"
+import { hidden } from "../styles/utils"
 import { UpDown, UpDownWide, waveAnimation } from "../styles/animations"
 import Intro from "../sections/intro.mdx"
+
 
 const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
   <div>
@@ -19,9 +23,17 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
         <Svg icon="cross" width={16} stroke color="icon_pink" left="28%" top="15%" />
         <Svg icon="circle" width={6} color="icon_darkest" left="75%" top="10%" />
         <Svg icon="upDown" hiddenMobile width={8} color="icon_darkest" left="45%" top="10%" />
-      </UpDown> */}
+        </UpDown> */}
+        {/* <StaticImage image={MicroCartIcon}/> */}
+        <img src={MicroCartIcon} width={500} sx={{      position: `absolute`,
+      stroke: `currentColor`,
+      fill: `currentColor`,
+      display: `block`,
+      color: `currentcolor`,
+      width: "50%",
+      left: "50%",
+      bottom: "30%"}}></img>
       <UpDownWide>
-        <Svg icon="microcart" hiddenMobile width={16} color="icon_blue" left="80%" top="10%" />
         {/* <Svg icon="triangle" width={12} stroke color="icon_brightest" left="90%" top="50%" />
         <Svg icon="circle" width={16} color="icon_darker" left="70%" top="90%" />
         <Svg icon="triangle" width={16} stroke color="icon_darkest" left="30%" top="65%" />
